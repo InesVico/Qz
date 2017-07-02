@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tituloResultado"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlanco"
+        android:text="Resultado final"
+        android:gravity="center"
+        android:background="@drawable/Cabecera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/resultado"
+        android:hint="Resultado Qz!"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/Publicar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/azulOscuro"
+        android:text="@string/publicar"
+        android:textColor="@color/colorBlanco"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlanco"
+        android:textSize="30dp"
+        android:id="@+id/SalirApp"
+        android:text="@string/salir"
+        android:background="@color/azulOscuro"/>
+
+</LinearLayout>

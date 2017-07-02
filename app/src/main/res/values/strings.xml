@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Qz</string>
     <string name="bienvenida">Bienvenido a Qz!</string>
+    <string name="publicar">Publicar resultado</string>
+    <string name="salir">Salir de Qz!</string>
 
 </resources>

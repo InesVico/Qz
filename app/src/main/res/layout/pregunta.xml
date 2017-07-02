@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/numPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="Pregunta n/N"
+        android:background="@drawable/Titulo"/>
+
+    <TextView
+        android:id="@+id/Pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:hint="Pregunta" />
+
+    <Button
+        android:id="@+id/Respuesta1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Respuesta1" />
+
+    <Button
+        android:id="@+id/Respuesta2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Respuesta2"/>
+
+    <Button
+        android:id="@+id/Respuesta3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Respuesta3" />
+
+    <Button
+        android:id="@+id/Respuesta4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Respuesta4" />
+
+</LinearLayout>

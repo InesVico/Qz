@@ -27,7 +27,7 @@ public class Cuestionario {
     };
 
     public Bitmap mRespuestaCorrectaImagen[] = {
-            
+
     };
 
     public String getPreguntas (int a){

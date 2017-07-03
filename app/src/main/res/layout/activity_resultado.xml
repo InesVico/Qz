@@ -12,7 +12,7 @@
         android:textColor="@color/colorBlanco"
         android:text="Resultado final"
         android:gravity="center"
-        android:background="@drawable/Cabecera"/>
+        android:background="@drawable/cabecera"/>
 
     <TextView
         android:layout_width="match_parent"

@@ -13,7 +13,7 @@
     android:textStyle="bold"
     android:gravity="center"
     android:hint="Pregunta n/N"
-    android:background="@drawable/Titulo"/>
+    android:background="@drawable/titulo"/>
 
 <TextView
     android:id="@+id/Pregunta"

@@ -3,5 +3,8 @@
     <string name="bienvenida">Bienvenido a Qz!</string>
     <string name="publicar">Publicar resultado</string>
     <string name="salir">Salir de Qz!</string>
+    <string name="login">Para acceder a la aplicación sólo tienes que introducir tu nombre y escanear el código de tu entrada.</string>
+    <string name="nombre">Nombre jugador:</string>
+    <string name="entrar">Entrar</string>
 
 </resources>

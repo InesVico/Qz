@@ -1,5 +1,6 @@
 package inesvico.pdm.qz;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -68,8 +69,9 @@ public class LoginActivity extends AppCompatActivity {
                 mCamara.stop();
             }
         });
+
         // preparo el detector de QR
-        mDetectorQR.setProcessor(new Detector.Processor<Barcode>() {
+        mBarcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
             @Override
             public void release() {
             }
@@ -79,13 +81,15 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (barcodes.size() != 0) {
                     barcodes.valueAt(0).displayValue.toString();
-                    // hacer algo
+                    //Aquí especificar alguna regla para asegurarnos de que es un QR de caja Granada
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
                 }
 
-                mDetectorQR.release();
-            });
-        };
+                mBarcodeDetector.release();
+            }
+        });
 
-        mDetectorQR.
     }
 }
